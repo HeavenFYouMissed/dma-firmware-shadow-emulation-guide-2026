@@ -48,7 +48,7 @@ TeleScan: Extremely useful for inspecting read-only/read-write bits and dumping 
 RW-Everything: A powerful utility for viewing I/O and MMIO, which is vital for Transmit/Receive Logic Protocol (TLP) operations.
 Firmware Source Code: Specifically, the pcileech-wifi repository from GitHub.
 
-## guide
+## My full guide:
 https://docs.google.com/document/d/e/2PACX-1vTbMgXivYocBYuyranQOg3_JW53np0xtldHwhxCUrbktguYwlF0iMBBLHjw_r3mzBVtqPz2MS7IhA7f/pub
 
 ## Related Resources & Search Links
