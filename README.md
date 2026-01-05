@@ -21,6 +21,7 @@ The techniques documented here are intended to help anticheat developers and blu
 - [Recommended Hardware](#recommended-hardware)
 - [Tools Required](#tools-required)
 - [guide](#guide-required)
+- [Related resources](#Related-required)
 - ---
 
 ## Introduction
@@ -49,3 +50,27 @@ Firmware Source Code: Specifically, the pcileech-wifi repository from GitHub.
 
 ## guide
 https://docs.google.com/document/d/e/2PACX-1vTbMgXivYocBYuyranQOg3_JW53np0xtldHwhxCUrbktguYwlF0iMBBLHjw_r3mzBVtqPz2MS7IhA7f/pub
+
+## Related Resources & Search Links
+
+Base/open-source repos to build from:
+- [ufrisk/pcileech-fpga](https://github.com/ufrisk/pcileech-fpga) – The OG PCILeech FPGA project (all hardware variants, stock firmware builds)
+- [ekknod/pcileech-wifi](https://github.com/ekknod/pcileech-wifi) – PCILeech with wireless card emulation tricks
+- [Silverr12/DMA-CFW-Guide](https://github.com/Silverr12/DMA-CFW-Guide) – Classic detailed custom firmware instructions (pre-2026, great for basics)
+- [JPShag/PCILeech-DMA-Firmware](https://github.com/JPShag/PCILeech-DMA-Firmware) – "The last guide you'll ever need" vibes (older but solid shadow space edits)
+- [pokordot/Dma-Firmware](https://github.com/pokordot/Dma-Firmware) – Custom 1:1 emulation examples with EFUSE DNA lock breakdowns
+
+Older UC cave threads (gold for historical context & common pitfalls):
+- [[Tutorial] DMA CUSTOM FIRMWARE GUIDE (multi-page mega thread)](https://www.unknowncheats.me/forum/anti-cheat-bypass/613135-dma-custom-firmware-guide.html) – The 2023-2024 bible, tons of noob questions + fixes
+- [[Tutorial] pcileech-multimedia (basic emulated firmware)](https://www.unknowncheats.me/forum/anti-cheat-bypass/623718-pcileech-multimedia.html)
+- [[Tutorial] Nulled config space firmware (VGK bypass notes)](https://www.unknowncheats.me/forum/anti-cheat-bypass/623940-nulled-config-space-pcileech-fpga-firmware-hot-vgk-bypass.html)
+- [[Tutorial] Very Basic Custom DMA Firmware Guide (2025 update)](https://www.unknowncheats.me/forum/anti-cheat-bypass/725509-basic-custom-dma-firmware-guide.html)
+- [[Information] Almost Full DMA Guide (newbie hardware basics)](https://www.unknowncheats.me/forum/pc-hardware/680863-dma-guide.html)
+- [[Information] The ultimate DMA newbie guide](https://www.unknowncheats.me/forum/pc-hardware/631149-ultimate-dma-newbie-guide.html)
+
+Misc scene drops:
+- [Phoenix Labs Free DMA Firmware mirrors](https://phoenixlabstore.com/free-dma-firmware/) – Stock fw for Enigma X1, CaptainDMA, Screamer etc.
+- [Blog: Create own custom pcileech firmware (2025 post)](https://blog.rabu.me/dma-create-custom-firmware/)
+- [PCILeechFWGenerator PyPI tool (auto donor dumps & builds)](https://pypi.org/project/PCILeechFWGenerator/)
+
+post-2026 😂 Blue team reading these gonna realize they need deeper Arbor/TeleScan hooks for TLP anomalies and cap chain mismatches  
