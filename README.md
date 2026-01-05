@@ -73,4 +73,10 @@ Misc scene drops:
 - [Blog: Create own custom pcileech firmware (2025 post)](https://blog.rabu.me/dma-create-custom-firmware/)
 - [PCILeechFWGenerator PyPI tool (auto donor dumps & builds)](https://pypi.org/project/PCILeechFWGenerator/)
 
+- ### Automated .COE / Firmware Generators (Levels Up Manual Flow)
+- [VoltCyclone/PCILeechFWGenerator](https://github.com/VoltCyclone/PCILeechFWGenerator) – Next-gen auto generator: Live VFIO donor dumps → realistic shadow .coe + writemask + dynamic caps + full bitstream. TUI/CLI, no TeleScan needed. pip install pcileechfwgenerator[tui] 🔥
+- Classic manual converters (for offline .tlscan flows):
+  - [Rakeshmonkee/DMA telescan_to_coe.py](https://github.com/Rakeshmonkee/DMA/blob/main/.tlscan%20to%20.coe/telescan_to_coe.py)
+  - [Ap3x/PCIeConfigSpace TLScan tool](https://github.com/Ap3x/PCIeConfigSpace) – Generates both config .coe + writemask .coe
+
 post-2026 😂 Blue team reading these gonna realize they need deeper Arbor/TeleScan hooks for TLP anomalies and cap chain mismatches  
